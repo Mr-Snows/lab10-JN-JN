@@ -16,10 +16,10 @@ def test_subtract(self):
     self.assertEqual(subtract(2, 7), -5)
 
 def test_divide_by_zero(self):
-    with self.assertRaises(ZeroDivisionError): divide(0, 5)
+    with self.assertRaises(ZeroDivisionError): divide(5, 0)
 
 def test_logarithm(self):
-    self.assertEqual(logarithm(3, 8), 2)
+    self.assertEqual(logarithm(2, 8), 3)
 
 def test_log_invalid_base(self):
     with self.assertRaises(ValueError):
@@ -32,8 +32,8 @@ def test_multiply(self):
     self.assertEqual(multiply(-1, 5), -5)
 
 def test_divide(self):
-    self.assertEqual(divide(1, 5), 5)
-    self.assertEqual(divide(-5, 15), -3)
+    self.assertEqual(divide(5, 1), 5)
+    self.assertEqual(divide(-15, 5), -3)
 
 def test_log_invalid_argument(self):
     with self.assertRaises(ZeroDivisionError):
