@@ -3,7 +3,7 @@
 # Partner 2: Jayci Nieves
 
 import unittest
-from calculator import calculator
+from calculator import *
 
 class TestCalculator(unittest.TestCase):
 
