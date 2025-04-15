@@ -1,5 +1,7 @@
-# I did both Jayci
-# First example
+# https://github.com/Mr-Snows/lab10-JN-JN
+# Partner 1: Jayci Nieves
+# Partner 2: Jayci Nieves
+
 def square_root(a):
     if a <  0:
         raise ZeroDivisionError("Must be positive")
