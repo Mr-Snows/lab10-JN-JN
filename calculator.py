@@ -1,9 +1,4 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
+# I did both Jayci
 # First example
 def square_root(a):
     if a <  0:
