@@ -16,7 +16,8 @@ def test_subtract(self):
     self.assertEqual(subtract(2, 7), -5)
 
 def test_divide_by_zero(self):
-    with self.assertRaises(ZeroDivisionError): divide(5, 0)
+    with self.assertRaises(ZeroDivisionError):
+        divide(5, 0)
 
 def test_logarithm(self):
     self.assertEqual(logarithm(2, 8), 3)
