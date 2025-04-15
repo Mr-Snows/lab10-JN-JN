@@ -1,3 +1,7 @@
+# https://github.com/Mr-Snows/lab10-JN-JN
+# Partner 1: Jayci Nieves
+# Partner 2: Jayci Nieves
+
 import unittest
 from calculator import *
 
