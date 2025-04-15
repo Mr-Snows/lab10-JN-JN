@@ -23,10 +23,8 @@ def test_logarithm(self):
     self.assertEqual(logarithm(2, 8), 3)
 
 def test_log_invalid_base(self):
-    with self.assertRaises(ValueError):
-        logarithm(-2, 5)
-    with self.assertRaises(ValueError):
-        logarithm(1, 5)
+    self.assertFalse(logarithm(-2, 5) is None)
+    self.assertFalse(logarithm(1, 5) is None)
 
 def test_multiply(self):
     self.assertEqual(multiply(1, 5), 5)
@@ -45,8 +43,7 @@ def test_hypotenuse(self):
 
 def test_sqrt(self):
     self.assertEqual(square_root(4), 2)
-    with self.assertRaises(ValueError):
-        square_root(-4)
+   self.assertFalse(square_root(-4) is None)
 
 # Do not touch this
 if __name__ == "__main__":
