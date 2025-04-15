@@ -23,10 +23,10 @@ class TestCalculator(unittest.TestCase):
         self.assertRaises(ValueError, calculator.divide, 0, 10)
     
     def test_logarithm(self):
-         self.assertEqual(calculator.logarithm(2, 8)
+         self.assertEqual(calculator.logarithm(2, 8))
 
     def test_log_invalid_base(self):
-        self.assertRaises(ValueError, calculator.logarithm, -1, 1)
+        self.assertRaises(ValueError, calculator.logarithm -1, 1)
         self.assertRaises(ValueError, calculator.logarithm,  0, 1)
         self.assertRaises(ValueError, calculator.logarithm, 1, 1)
 
